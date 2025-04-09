@@ -16,6 +16,7 @@ services:
             - "net"
         ports:
             - "80:80"
+            - "8883:8883"
             - "443:443"
     letsencrypt:
         image: "jrcs/letsencrypt-nginx-proxy-companion:latest"
